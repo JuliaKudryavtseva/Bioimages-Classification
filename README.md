@@ -5,3 +5,7 @@ Quick start:
 python class_experiment.py 
 
 python label_experiment.py
+
+Evaluation resukts:
+---
+evaluation.ipynb
