@@ -6,6 +6,6 @@ python class_experiment.py
 
 python label_experiment.py
 
-Evaluation resukts:
+Evaluation results:
 ---
 evaluation.ipynb
