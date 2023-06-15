@@ -1,2 +1,6 @@
 # Bioimages-Classification
-to be updated
+
+Quick start:
+---
+python class_experiment.py 
+python label_experiment.py
