@@ -2,7 +2,7 @@
 
 Quick start:
 ---
-!pip install requirements.txt
+pip install requirements.txt
 
 python class_experiment.py 
 
