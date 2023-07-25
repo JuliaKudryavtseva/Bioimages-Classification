@@ -15,7 +15,7 @@ from utils.optimizer import get_optimizer
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--batch-size", type=int, default=4)
-parser.add_argument("--epochs", type=int, default=100)
+parser.add_argument("--epochs", type=int, default=30)
 parser.add_argument("--lr", type=float, default=1e-5)
 parser.add_argument("--path", type=str, default='multi_class_output')
 parser.add_argument("--opt", type=str, default='adam')
