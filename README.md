@@ -8,7 +8,7 @@ python class_experiment.py
 
 python label_experiment.py
 
-# Medical Image Classification with ResNets, DenseNets, EfficientNet and ViT
+# Medical Image Classification with ResNets, EfficientNet and ViT
 Medical image classification plays an increasingly important role in healthcare, especially in diagnosing, treatment planning, and disease monitoring. However, the lack of large publicly available datasets with annotations means it is still very difficult, if not impossible, to achieve clinically relevant computer-aided detection and diagnosis (CAD). In recent years, deep learning models have been shown to be very effective at image classification, and they are increasingly being used to improve medical tasks. Thus, this project aims to explore the use of different convolutional neural network (CNN) architectures for medical image classification. Specifically, we will examine the performance of 6 different CNN models (ResNet34, EfficientNet_B0, and ViT) on a dataset of blood cell images.
 ### Datasets
 We will use two datasets for our experiments:
