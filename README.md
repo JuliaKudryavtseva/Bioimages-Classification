@@ -20,7 +20,7 @@ Multi-class classification refers to the categorization of instances into precis
 2)	[EfficientNet](https://arxiv.org/pdf/1905.11946v5.pdf) is a family of convolutional neural network architectures that were introduced in 2019 by Tan et al. EfficientNets are designed to be efficient in terms of both accuracy and computational resources. They achieve this by using a combination of techniques, including compound scaling, squeeze-and-excitation blocks, and autoML.
 3)	[ViT](https://arxiv.org/pdf/2010.11929.pdf), or Vision Transformer, is a deep learning model that was introduced in 2020 by Dosovitskiy et al. Vision Transformers are based on the transformer architecture, which was originally developed for natural language processing (NLP).
 ### Evaluation
-![image]([https://github.com/JuliaKudryavtseva/Bioimages-Classification/blob/main/multi_class_output/classacc.png](https://github.com/JuliaKudryavtseva/Bioimages-Classification/blob/main/multi_class_output/classlosses.png)
+![image](https://github.com/JuliaKudryavtseva/Bioimages-Classification/blob/main/multi_class_output/classlosses.png)
 ![image](https://github.com/JuliaKudryavtseva/Bioimages-Classification/blob/main/multi_class_output/classacc.png)
 
 <p align="center">
