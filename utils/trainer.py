@@ -23,7 +23,7 @@ def seed_everything(seed=42):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
     
-seed_everything()
+seed_everything(0)
 
 
 
@@ -107,7 +107,7 @@ class Trainer:
 
 
 
-            val_loss, val_accuracy, _= self.val()
+            val_loss, val_accuracy, (true_label, pred_label) = self.val()
     
             train_loss = train_loss / self.trainset_len
             train_acc = train_acc / self.trainset_len
@@ -123,6 +123,12 @@ class Trainer:
             if val_accuracy > max_val_accuracy:
                 max_val_accuracy = val_accuracy
                 self.save_model(self.path_output, epoch, self.model, self.optimizer, self.criteriation)
+                
+                true_label = true_label.cpu().detach().numpy()
+                pred_label = pred_label.cpu().detach().numpy()
+
+                model_preds = pd.DataFrame(np.array([true_label, pred_label]).T, columns=['t', 'p'])
+                model_preds.to_csv(self.path_output.replace('.pt', '_preds.csv'), index=False)
 
             metrics.append([train_loss, val_loss, train_acc, val_accuracy])
             pd.DataFrame(metrics, columns=['train_loss',
