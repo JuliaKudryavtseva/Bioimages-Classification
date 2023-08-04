@@ -1,5 +1,7 @@
 .ipynb_checkpoints/
-*/__pycache__/
+transformer/__pycache__
+data/__pycache__
+utils/__pycache__
 *.pt
 dataset2-master/
 dataset-master/
